@@ -12,19 +12,19 @@
 
 
 .header{
-  border: 5px red solid;
+  /* border: 5px red solid; */
   color: white;
 }
 
 
 .top, .middle, .bottom{
-  border: 5px blue solid;
+  /* border: 5px blue solid; */
   display: flex;
   justify-content: center;
 }
 
 .content{
-  border: 5px orange solid;
+  /* border: 5px orange solid; */
   width: 960px;
   display: flex;
 }
@@ -67,7 +67,7 @@
 }
 
 .box-header{
-  border: 3px darkgreen solid;
+  /* border: 3px darkgreen solid; */
   width: 20rem;
   padding: 2rem 3rem;
   margin-top: 9rem;
@@ -94,12 +94,12 @@
   background-color: firebrick;
 }
 .bottom li{
-  border: 3px white solid;
+  /* border: 3px white solid; */
   margin: 0.75rem 0;
 }
 
 .bottom ul{
-  border: 3px black solid;
+  /* border: 3px black solid; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -115,13 +115,13 @@
 /* Gallery Section */
 /* //////////////////////////////////////////////////////////////////////////////// */
 .gallery{
-  border: 5px red solid;
+  /* border: 5px red solid; */
 }
 
 
 
 .images, .words{
-  border: 3px blue solid;
+  /* border: 3px blue solid; */
   width: 960px;
   margin: 3rem auto;
   display: flex;
@@ -129,7 +129,7 @@
 }
 
 .left, .right{
-  border: 3px blueviolet solid;
+  /* border: 3px blueviolet solid; */
   width: 35%;
   font-family: Helvetica;
   font-size: 1rem;
@@ -139,7 +139,7 @@
 .gallery img{
   width: 13rem;
   height: 13rem;
-  border: 3px green solid;
+  /* border: 3px green solid; */
 }
 
 figure{
@@ -147,7 +147,7 @@ figure{
 }
 
 figcaption{
-  border: 3px red solid;
+  /* border: 3px red solid; */
   padding: 0.5rem 0;
   text-align: center;
   background-color: black;
@@ -161,7 +161,7 @@ justify-content: space-between;
 }
 
 .words span{
-  border: 3px green solid;
+  /* border: 3px green solid; */
   display: block;
 }
 
@@ -183,7 +183,7 @@ justify-content: space-between;
 /* //////////////////////////////////////////////////////////////////////////////// */
 
 .footer{
-  border: 5px red solid;
+  /* border: 5px red solid; */
   font-family: Helvetica;
   font-size: 1rem;
   color: white;
@@ -192,7 +192,7 @@ justify-content: space-between;
 
 .container{
   margin: 0 auto;
-  border: 3px blue solid;
+  /* border: 3px blue solid; */
   width: 960px;
   height: 10rem;
   display: flex;
@@ -223,7 +223,7 @@ justify-content: space-between;
    }
 
    .images, .words{
-     border: 3px blue solid;
+     /* border: 3px blue solid; */
      width: 100%;
      margin: 3rem auto;
      display: flex;
@@ -246,7 +246,7 @@ justify-content: space-between;
    }
 
    .left, .right{
-     border: 3px blueviolet solid;
+     /* border: 3px blueviolet solid; */
      width: 35%;
      font-family: Helvetica;
      font-size: 1rem;
