@@ -1,0 +1,316 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.menu{
+  display: none;
+}
+
+/* Header Section */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+.header{
+  border: 5px red solid;
+  color: white;
+}
+
+
+.top, .middle, .bottom{
+  border: 5px blue solid;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  border: 5px orange solid;
+  width: 960px;
+  display: flex;
+}
+
+
+.top{
+  background-color: black;
+}
+
+.top span{
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.top img{
+  /* border: 3px green solid; */
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+.top span{
+  /* border: 3px green solid; */
+}
+
+.t{
+  padding: 0.66rem 0;
+  align-items: center;
+}
+
+.middle{
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.m{
+  align-items: flex-start;
+}
+
+.box-header{
+  border: 3px darkgreen solid;
+  width: 20rem;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  background-color: black;
+}
+
+.header h4{
+  margin-bottom: 0.25rem;
+  /* border: 3px black solid; */
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.header h1{
+  /* border: 3px black solid; */
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.bottom{
+  background-color: firebrick;
+}
+.bottom li{
+  border: 3px white solid;
+  margin: 0.75rem 0;
+}
+
+.bottom ul{
+  border: 3px black solid;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* Header Section */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* Gallery Section */
+/* //////////////////////////////////////////////////////////////////////////////// */
+.gallery{
+  border: 5px red solid;
+}
+
+
+
+.images, .words{
+  border: 3px blue solid;
+  width: 960px;
+  margin: 3rem auto;
+  display: flex;
+
+}
+
+.left, .right{
+  border: 3px blueviolet solid;
+  width: 35%;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+}
+
+.gallery img{
+  width: 13rem;
+  height: 13rem;
+  border: 3px green solid;
+}
+
+figure{
+  border: 4px black solid;
+}
+
+figcaption{
+  border: 3px red solid;
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+}
+
+.images, .words{
+justify-content: space-between;
+}
+
+.words span{
+  border: 3px green solid;
+  display: block;
+}
+
+
+.white{
+  padding: 1rem 0 1rem 2rem;
+  background-color: black;
+}
+
+.black{
+  color: black;
+}
+/* Gallery Section */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* Footer Section */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.footer{
+  border: 5px red solid;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.container{
+  margin: 0 auto;
+  border: 3px blue solid;
+  width: 960px;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer Section */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* Tablet Mode  <= 1024px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 1024px){
+   .non-1024px{
+     display: none;
+   }
+
+
+   .menu{
+     display: block;
+   }
+
+
+   .bottom ul{
+     justify-content: center;
+   }
+
+   .images, .words{
+     border: 3px blue solid;
+     width: 100%;
+     margin: 3rem auto;
+     display: flex;
+   }
+
+   .glasses{
+     display: none;
+   }
+
+
+   figure{
+     width: 47%;
+     overflow: hidden;
+   }
+
+   .gallery img{
+     display: block;
+     width: 100%;
+     height: auto;
+   }
+
+   .left, .right{
+     border: 3px blueviolet solid;
+     width: 35%;
+     font-family: Helvetica;
+     font-size: 1rem;
+     color: white;
+   }
+
+}
+
+/* Tablet Mode <= 1024px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* Cellphone Mode <= 470px */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 470px){
+
+.watch{
+  display: none;
+}
+
+figure{
+  width: 90%;
+}
+
+.images{
+  justify-content: center;
+}
+
+.words{
+/* justify-content: center; */
+flex-direction: column;
+align-items: center;
+}
+
+.left, .right{
+  width: 90%;
+}
+
+.left{
+  margin-bottom: 0.5rem;
+}
+
+.m{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box-header{
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-top: 0;
+  background-color: black;
+  font-size: 0.77rem;
+  font-weight: bold;
+}
+
+.box-header h1{
+  font-size: 1rem;
+}
+
+}
+
+/* Cellphone Mode <= 470px */
+/* //////////////////////////////////////////////////////////////////////////////// */
